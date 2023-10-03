@@ -1,8 +1,8 @@
 
 /* Your CSS Code here. */
-#body {
-  height: 100%; /* Ensure that the body and HTML element take the full viewport height */
-  margin: 0;
+#body{
+	margin: 0px;
+	height: 100%;
 }
 .holder{
 	height: 100vh;
@@ -14,7 +14,7 @@
 }
 .item-1{
 	display: flex;
-	text-align: center;
+	justify-content: center;
 	align-items: center;
 	background-color: red;
 	height: 100px;

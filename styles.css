@@ -1,5 +1,9 @@
 
 /* Your CSS Code here. */
+#body {
+  height: 100%; /* Ensure that the body and HTML element take the full viewport height */
+  margin: 0;
+}
 .holder{
 	height: 100vh;
 	width: 100vw;
@@ -9,8 +13,10 @@
 	
 }
 .item-1{
+	display: flex;
+	text-align: center;
+	align-items: center;
 	background-color: red;
-	padding: 20px;
 	height: 100px;
 	width: 100px;
 }
